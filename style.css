@@ -93,6 +93,9 @@
     border-radius: 5px;
     
 }
+.l1:hover, .t1:hover{
+    box-shadow: 5px 5px 5px black;
+}
 
 .fa{
     margin-top: 10px;
