@@ -56,12 +56,12 @@
 .t1:hover{
     background-color: white;
     color: #000;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 }
 .l1:hover{
     background-color: rgb(255, 255, 255);
     color: #000;
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
 }
 .t2{
     width: 60%;
@@ -103,7 +103,9 @@ button{
 }
 button:hover{
     color: #000;
-    background: rgb(6, 177, 0);
-    border: 2px solid gray;
+    background: rgb(255, 255, 255);
+    border: 2px solid gray; 
     cursor: pointer;
+    box-shadow: 5px 5px 5px black;
+    
 }
